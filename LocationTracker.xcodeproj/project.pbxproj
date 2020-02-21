@@ -14,6 +14,8 @@
 		009CD99923CE5229008E52E9 /* LocationTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 009CD99723CE5229008E52E9 /* LocationTracker.xcdatamodeld */; };
 		009CD99B23CE522E008E52E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009CD99A23CE522E008E52E9 /* Assets.xcassets */; };
 		009CD99E23CE522E008E52E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009CD99C23CE522E008E52E9 /* LaunchScreen.storyboard */; };
+		009CD9A623CE5762008E52E9 /* LocationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CD9A523CE5762008E52E9 /* LocationParser.swift */; };
+		009CD9A823CE5A4E008E52E9 /* InfluxApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009CD9A723CE5A4E008E52E9 /* InfluxApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		009CD99A23CE522E008E52E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		009CD99D23CE522E008E52E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		009CD99F23CE522E008E52E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009CD9A523CE5762008E52E9 /* LocationParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationParser.swift; sourceTree = "<group>"; };
+		009CD9A723CE5A4E008E52E9 /* InfluxApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfluxApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				009CD98E23CE5229008E52E9 /* AppDelegate.swift */,
+				009CD9A523CE5762008E52E9 /* LocationParser.swift */,
+				009CD9A723CE5A4E008E52E9 /* InfluxApi.swift */,
 				009CD99023CE5229008E52E9 /* SceneDelegate.swift */,
 				009CD99223CE5229008E52E9 /* ViewController.swift */,
 				009CD99423CE5229008E52E9 /* Main.storyboard */,
@@ -144,6 +150,8 @@
 				009CD99323CE5229008E52E9 /* ViewController.swift in Sources */,
 				009CD99923CE5229008E52E9 /* LocationTracker.xcdatamodeld in Sources */,
 				009CD98F23CE5229008E52E9 /* AppDelegate.swift in Sources */,
+				009CD9A623CE5762008E52E9 /* LocationParser.swift in Sources */,
+				009CD9A823CE5A4E008E52E9 /* InfluxApi.swift in Sources */,
 				009CD99123CE5229008E52E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
